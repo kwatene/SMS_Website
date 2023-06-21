@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Float four columns side by side */
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+        margin: 0 -5px;
+    }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+</style>
+
+<div class="text-center pt-4">
+    <h1 class="display-4">Revolutionize Your Business </h1>
+    <h1>with an All-In-One Booking Solution!</h1>
+</div>
+<br />
+
+<div class="container text-center" style="margin-left:15%;">
+    <div class="row ml-5">
+        <div class="column col-4">
+            <div class="card pl-1 pr-1 pb-2 mt-4">
+                <div class="card-header">
+                    <h4>Customise your Services</h4>
+                </div>
+                <div class="card-body">
+                    <p>Group your services<br />Choose your preffered time slots<br />Enable follow-up appointments</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <img src="/img/Service Categories.png" alt="Service Module" class="modules ml-5 mt-2 mb-5">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column col-3">
+            <div class="card pl-1 pr-1 pt-2 pb-2 mr-2">
+                <div class="card-header">
+                    <h4>Manage your Teams</h4>
+                </div>
+                <div class="card-body" style=“list-style-type:circle>
+                    <p>Information, Interactions and Schedule</p>
+                </div>
+            </div>
+        </div>
+        <div class="column col-3">
+            <div class="card pl-1 pr-1 pt-2 pb-2 mr-2">
+                <div class="card-header">
+                    <h4>Manage your Clients</h4>
+                </div>
+                <div class="card-body">
+                    <p>Information, Interactions and Appointments</p>
+                </div>
+            </div>
+        </div>
+        <div class="column col-3">
+            <div class="card pl-1 pr-1 pt-2 pb-2 mr-2">
+                <div class="card-header">
+                    <h4>Manage Consent Forms</h4>
+                </div>
+                <div class="card-body">
+                    <p>Form Information<br />Customise Format</p>
+                </div>
+            </div>
+        </div>
+        <div class="column col-3">
+            <div class="card pl-1 pr-1 pt-2 pb-2">
+                <div class="card-header">
+                    <h4>Manage Appointments</h4>
+                </div>
+                <div class="card-body">
+                    <p>Assign Staff<br />Make Payment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
